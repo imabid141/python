@@ -292,3 +292,43 @@ You win this round
 ```
 
 ✔ Your reasoning was correct.
+
+## Small Trick to Make Logic Easier
+
+Whenever you see code like this:
+
+```python
+win_rules[player] == computer
+```
+
+Translate it in your brain like this:
+
+```
+"What does the player's move defeat?"
+```
+
+Example:
+
+```
+player = scissors
+```
+
+Ask:
+
+```
+What does scissors defeat?
+```
+
+Answer:
+
+```
+paper
+```
+
+Now compare with computer:
+
+```
+computer = paper
+```
+
+Match → **player wins**
