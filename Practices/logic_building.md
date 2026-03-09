@@ -1,6 +1,6 @@
 # 1
 
-## 🧪 Small Exercise (Important)
+## 🧪 1st Small Exercise (Important)
 
 Without running Python, tell me the result.
 
@@ -180,3 +180,115 @@ You win this round
 ```
 
 Because **paper beats rock**.
+
+# 2
+
+## 🎯 Your Next Small Challenge
+
+Without running Python, tell me the result of this:
+
+```
+player = "scissors"
+computer = "paper"
+```
+
+What will this condition evaluate to?
+
+```python
+win_rules[player] == computer
+```
+
+A)
+
+```
+True
+```
+
+B)
+
+```
+False
+```
+
+Think step-by-step like a programmer and answer.
+
+## Answer Review:
+
+Abid, **yes — you are correct again. ✅**
+
+Your answer **A (True)** is right.
+
+Let’s verify it step-by-step like a programmer.
+
+---
+
+## Step 1 — Look at the dictionary
+
+```python
+win_rules = {
+    "rock": "scissors",
+    "scissors": "paper",
+    "paper": "rock"
+}
+```
+
+This means:
+
+```
+rock → beats scissors
+scissors → beats paper
+paper → beats rock
+```
+
+---
+
+## Step 2 — Substitute the value
+
+You said:
+
+```
+player = "scissors"
+computer = "paper"
+```
+
+Python evaluates:
+
+```python
+win_rules[player]
+```
+
+which becomes:
+
+```python
+win_rules["scissors"]
+```
+
+Dictionary result:
+
+```
+paper
+```
+
+---
+
+## Step 3 — Compare
+
+Now Python checks:
+
+```
+paper == paper
+```
+
+Result:
+
+```
+True
+```
+
+So the program enters:
+
+```
+You win this round
+```
+
+✔ Your reasoning was correct.
