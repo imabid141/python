@@ -756,3 +756,126 @@ dry running code
 ```
 
 And you are clearly improving at it.
+
+# 5
+
+### Quick Warm-Up (Very Easy)
+
+Before we continue, let’s warm up your brain again.
+
+What will this code print?
+
+```python
+count = 0
+
+for i in range(4):
+    count += 2
+
+print(count)
+```
+
+Choices:
+
+A)
+
+```
+4
+```
+
+B)
+
+```
+6
+```
+
+C)
+
+```
+8
+```
+
+So tell me:
+
+```
+A, B, or C ?
+```
+
+## War-Up Review
+
+Correct, Abid. ✅
+**C) 8** is the right answer.
+
+Let’s confirm it step-by-step so the pattern becomes automatic in your brain.
+
+### The Code
+
+```python
+count = 0
+
+for i in range(4):
+    count += 2
+
+print(count)
+```
+
+### Step 1 — Understand the Loop
+
+```
+range(4) → 0, 1, 2, 3
+```
+
+So the loop runs **4 times**.
+
+### Step 2 — What Happens Each Loop
+
+Every iteration executes:
+
+```
+count += 2
+```
+
+That means:
+
+```
+count = count + 2
+```
+
+### Step 3 — Simulate It
+
+Start:
+
+```
+count = 0
+```
+
+Iteration 1
+
+```
+count = 0 + 2 = 2
+```
+
+Iteration 2
+
+```
+count = 2 + 2 = 4
+```
+
+Iteration 3
+
+```
+count = 4 + 2 = 6
+```
+
+Iteration 4
+
+```
+count = 6 + 2 = 8
+```
+
+Final output:
+
+```
+8
+```
+
+✔ Correct answer: **C**
