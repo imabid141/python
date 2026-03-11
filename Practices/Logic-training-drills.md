@@ -430,3 +430,149 @@ machine learning loops
 ```
 
 So understanding this logic is **very important**.
+
+# 3
+
+## 🧠 Next Logic Drill (Level Up)
+
+Without running Python, tell me the result.
+
+```python
+count = 0
+
+for i in range(5):
+    if i % 2 == 0:
+        count += 1
+
+print(count)
+```
+
+Choices:
+
+A)
+
+```
+2
+```
+
+B)
+
+```
+3
+```
+
+C)
+
+```
+5
+```
+
+Hint:
+
+```
+% 2 == 0  → even numbers
+```
+
+Take your time and explain **how you thought about it**. This will help me see how your logic is developing.
+
+## Drill Review
+
+Abid, excellent. ✅
+Your answer **B (3)** is correct, and your **reasoning is also correct**.
+
+You said:
+
+> *“if condition true that time update the count value with one otherwise not”*
+
+That is **exactly how programmers think**.
+
+Let’s verify it step-by-step so the logic becomes crystal clear.
+
+### The Code
+
+```python
+count = 0
+
+for i in range(5):
+    if i % 2 == 0:
+        count += 1
+
+print(count)
+```
+
+### Step 1 — Understand the Loop
+
+```text
+range(5) → 0, 1, 2, 3, 4
+```
+
+So the loop runs **5 times**.
+
+### Step 2 — Check the Condition
+
+The condition is:
+
+```
+i % 2 == 0
+```
+
+This means:
+
+```
+Is i an even number?
+```
+
+Even numbers:
+
+```
+0, 2, 4
+```
+
+### Step 3 — Simulate the Loop
+
+Start:
+
+```
+count = 0
+```
+
+| i | i % 2 | condition | count |
+| - | ----- | --------- | ----- |
+| 0 | 0     | True      | 1     |
+| 1 | 1     | False     | 1     |
+| 2 | 0     | True      | 2     |
+| 3 | 1     | False     | 2     |
+| 4 | 0     | True      | 3     |
+
+Final result:
+
+```
+count = 3
+```
+
+✔ So the program prints:
+
+```
+3
+```
+
+### Important Thinking Skill You Just Used
+
+You correctly understood **conditional counting**:
+
+```
+loop through numbers
+check condition
+increase counter when true
+```
+
+This pattern is used everywhere:
+
+```
+data filtering
+statistics
+machine learning
+AI training loops
+```
+
+So this drill is **training real programming logic**.
