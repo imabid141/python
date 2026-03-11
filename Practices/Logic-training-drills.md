@@ -879,3 +879,165 @@ Final output:
 ```
 
 ✔ Correct answer: **C**
+
+# 6
+
+## Small Logic Test (Level Up)
+
+Tell me the output **without running code**.
+
+```python
+total = 1
+
+for i in range(3):
+    total = total * 2
+
+print(total)
+```
+
+Choices:
+
+A)
+
+```
+6
+```
+
+B)
+
+```
+8
+```
+
+C)
+
+```
+16
+```
+
+Take your time and explain your thinking again.
+
+## Level Up Review
+
+Abid, this is **excellent reasoning**. Seriously. ✅
+
+Your answer **B (8)** is correct, and your explanation shows **very good programming thinking**.
+
+Let’s confirm it together.
+
+### The Code
+
+```python
+total = 1
+
+for i in range(3):
+    total = total * 2
+
+print(total)
+```
+
+### Step 1 — Loop Values
+
+```
+range(3) → 0, 1, 2
+```
+
+So the loop runs **3 times**.
+
+### Step 2 — Simulate Each Iteration
+
+Start:
+
+```
+total = 1
+```
+
+### Iteration 1
+
+```
+i = 0
+total = 1 * 2 = 2
+```
+
+### Iteration 2
+
+```
+i = 1
+total = 2 * 2 = 4
+```
+
+### Iteration 3
+
+```
+i = 2
+total = 4 * 2 = 8
+```
+
+Final output:
+
+```
+8
+```
+
+✔ Correct answer: **B**
+
+### Important Pattern You Just Learned
+
+This loop is doing **repeated multiplication**.
+
+Mathematically this is the same as:
+
+```
+2³
+```
+
+Because:
+
+```
+1 × 2 × 2 × 2 = 8
+```
+
+So the loop is basically calculating **powers**.
+
+Example pattern:
+
+```
+for i in range(n):
+    total *= 2
+```
+
+Result:
+
+```
+2ⁿ
+```
+
+Examples:
+
+| range    | result |
+| -------- | ------ |
+| range(3) | 8      |
+| range(4) | 16     |
+| range(5) | 32     |
+
+### Teacher Feedback (Important)
+
+Abid, your explanation shows **three strong skills developing**:
+
+1️⃣ **Loop simulation**
+
+```
+iteration by iteration thinking
+```
+
+2️⃣ **Variable tracking**
+
+```
+what value is inside the variable now
+```
+
+3️⃣ **Logical explanation**
+
+You didn't just say **B**, you explained **why**.
+
+That is **exactly how good programmers think**.
