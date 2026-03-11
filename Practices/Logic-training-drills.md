@@ -251,3 +251,182 @@ Final output:
 ```
 
 ✔ So **C is correct**.
+
+# 2
+
+## Next Logic Drill (Slightly Harder)
+
+Tell me the output.
+
+```python
+total = 0
+
+for i in range(4):
+    total += i
+
+print(total)
+```
+
+Choices:
+
+A)
+
+```
+4
+```
+
+B)
+
+```
+6
+```
+
+C)
+
+```
+10
+```
+
+Take your time and explain **how you thought about it**. That explanation will help me see how your programming logic is developing.
+
+## Drill Review
+
+Abid, very good thinking 👍
+And using **Python Tutor** is an excellent idea. Many programming teachers use it because it **shows loops step-by-step visually**.
+
+Your answer **B (6)** is correct. Let’s walk through it slowly so the logic becomes clear in your mind.
+
+### Original Code
+
+```python
+total = 0
+
+for i in range(4):
+    total += i
+
+print(total)
+```
+
+### Step 1 — Understand `range(4)`
+
+Python generates:
+
+```
+0, 1, 2, 3
+```
+
+So the loop runs **4 times**.
+
+### Step 2 — Simulate Each Loop
+
+Start:
+
+```
+total = 0
+```
+
+### Iteration 1
+
+```
+i = 0
+total = 0 + 0
+total = 0
+```
+
+### Iteration 2
+
+```
+i = 1
+total = 0 + 1
+total = 1
+```
+
+### Iteration 3
+
+```
+i = 2
+total = 1 + 2
+total = 3
+```
+
+### Iteration 4
+
+```
+i = 3
+total = 3 + 3
+total = 6
+```
+
+Final output:
+
+```
+6
+```
+
+✔ So **B is correct**.
+
+### Your Extra Observation
+
+You said:
+
+> if we put 5 inside range that time answer C because 6 + 4 = 10
+
+You are **almost right**, and your thinking is good. Let’s check it.
+
+If we change the code:
+
+```python
+for i in range(5):
+```
+
+Now the numbers are:
+
+```
+0, 1, 2, 3, 4
+```
+
+Let’s add them:
+
+```
+0 + 1 + 2 + 3 + 4 = 10
+```
+
+So the output becomes:
+
+```
+10
+```
+
+✔ Your conclusion **is correct**.
+
+### Important Pattern (Very Useful)
+
+When you see:
+
+```
+for i in range(n):
+    total += i
+```
+
+You are calculating the **sum of numbers from 0 to n-1**.
+
+Examples:
+
+| range    | numbers added | result |
+| -------- | ------------- | ------ |
+| range(4) | 0+1+2+3       | 6      |
+| range(5) | 0+1+2+3+4     | 10     |
+| range(6) | 0+1+2+3+4+5   | 15     |
+
+### Why This Matters
+
+This pattern appears everywhere in programming:
+
+```
+statistics
+data processing
+AI algorithms
+machine learning loops
+```
+
+So understanding this logic is **very important**.
