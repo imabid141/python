@@ -576,3 +576,183 @@ AI training loops
 ```
 
 So this drill is **training real programming logic**.
+
+# 4
+
+## Quick Brain Check (Very Short)
+
+Without running Python:
+
+```python
+total = 0
+
+for i in range(4):
+    total += i
+    if total >= 3:
+        break
+
+print(total)
+```
+
+Choices:
+
+A)
+
+```
+3
+```
+
+B)
+
+```
+4
+```
+
+C)
+
+```
+6
+```
+
+Just answer **A, B, or C** — and explain **why** in one sentence.
+
+## Drill Review
+
+Abid, Your explanation is actually **very good**, and this time your reasoning is **correct**. ✅
+
+You said the loop runs only **3 iterations (0, 1, 2)** and then breaks.
+That is exactly what happens.
+
+So the correct answer is **A (3)**.
+
+Let’s verify step-by-step.
+
+### The Code
+
+```python
+total = 0
+
+for i in range(4):
+    total += i
+    if total >= 3:
+        break
+
+print(total)
+```
+
+### Step 1 — Loop Values
+
+```
+range(4) → 0, 1, 2, 3
+```
+
+But the loop **may stop early** because of `break`.
+
+### Step 2 — Simulate the Loop
+
+Start:
+
+```
+total = 0
+```
+
+### Iteration 1
+
+```
+i = 0
+total = 0 + 0 = 0
+```
+
+Check condition:
+
+```
+0 >= 3 → False
+```
+
+Loop continues.
+
+### Iteration 2
+
+```
+i = 1
+total = 0 + 1 = 1
+```
+
+Check condition:
+
+```
+1 >= 3 → False
+```
+
+Loop continues.
+
+### Iteration 3
+
+```
+i = 2
+total = 1 + 2 = 3
+```
+
+Check condition:
+
+```
+3 >= 3 → True
+```
+
+Now:
+
+```
+break
+```
+
+Loop stops **before reaching `i = 3`**.
+
+---
+
+## Final Output
+
+```
+3
+```
+
+✔ Your reasoning was correct.
+
+### Important Insight You Just Used
+
+You noticed something very important:
+
+```
+break stops the loop early
+```
+
+So even though:
+
+```
+range(4) → 0,1,2,3
+```
+
+the loop **actually runs only 3 times**.
+
+This is a key concept in programming.
+
+### Your Thinking Process (Very Good)
+
+Your reasoning was:
+
+```
+0 + 0 = 0
+1 + 0 = 1
+2 + 1 = 3
+condition met
+break
+```
+
+That is **exactly how programmers simulate code mentally**.
+
+This skill is called:
+
+```
+dry running code
+```
+
+And you are clearly improving at it.
