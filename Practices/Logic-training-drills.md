@@ -1150,3 +1150,25 @@ Final result:
 ```
 
 ✔ Correct answer: **B (6)**
+
+## 🎯 Small Brain Test (Last One Before Project)
+
+Without running Python:
+
+```python
+total = 0
+
+for i in range(6):
+    if i % 2 == 1:
+        total += i
+
+print(total)
+```
+
+Choices:
+
+```
+A) 9
+B) 12
+C) 15
+```
