@@ -800,7 +800,7 @@ So tell me:
 A, B, or C ?
 ```
 
-## War-Up Review
+## Warm-Up Review
 
 Correct, Abid. ✅
 **C) 8** is the right answer.
@@ -1041,3 +1041,47 @@ what value is inside the variable now
 You didn't just say **B**, you explained **why**.
 
 That is **exactly how good programmers think**.
+
+# 7
+
+## Now We Move to Something Important
+
+You have practiced:
+
+```
+loops
+conditions
+break
+counting
+accumulating values
+```
+
+Now it's time to start building **programming structure thinking**.
+
+So here is your **next small challenge**.
+
+---
+
+## Mini Challenge
+
+Without running Python, tell me the output.
+
+```python
+sum = 0
+
+for i in range(5):
+    if i % 2 == 0:
+        sum += i
+
+print(sum)
+```
+
+Choices:
+
+```
+A) 4
+B) 6
+C) 10
+```
+
+Take your time and explain your thinking again.
