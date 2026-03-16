@@ -1085,3 +1085,68 @@ C) 10
 ```
 
 Take your time and explain your thinking again.
+
+### Mini Challenge Review
+
+Abid, **excellent work again. ✅**
+Your answer **B (6)** is correct, and your explanation shows strong logical thinking.
+
+Let’s verify it clearly.
+
+### The Code
+
+```python
+sum = 0
+
+for i in range(5):
+    if i % 2 == 0:
+        sum += i
+
+print(sum)
+```
+
+### Step 1 — Loop Values
+
+```
+range(5) → 0, 1, 2, 3, 4
+```
+
+### Step 2 — Check the Condition
+
+The condition is:
+
+```
+i % 2 == 0
+```
+
+This means **i must be an even number**.
+
+Even numbers in the loop:
+
+```
+0, 2, 4
+```
+
+### Step 3 — Simulate the Loop
+
+Start:
+
+```
+sum = 0
+```
+
+| i | even? | action | sum |
+| - | ----- | ------ | --- |
+| 0 | Yes   | 0 + 0  | 0   |
+| 1 | No    | skip   | 0   |
+| 2 | Yes   | 0 + 2  | 2   |
+| 3 | No    | skip   | 2   |
+| 4 | Yes   | 2 + 4  | 6   |
+
+Final result:
+
+```
+6
+```
+
+✔ Correct answer: **B (6)**
