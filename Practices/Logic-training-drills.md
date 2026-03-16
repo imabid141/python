@@ -1172,3 +1172,5 @@ A) 9
 B) 12
 C) 15
 ```
+
+Explain your thinking again.
